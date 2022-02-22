@@ -1,0 +1,133 @@
+.avatar-cart {
+    margin-left: 600px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.nav-item:hover {
+     border-bottom: 2px solid hsl(26, 100%, 55%);
+}
+
+.product-1 {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.thumbnail {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+h6 {
+    font-weight: 700;
+    font-family: "Kumbh Sans", sans-serif;
+    color: hsl(26, 100%, 55%);
+    margin-top: 50px;
+}
+
+h1 {
+    font-weight: 700;
+    font-family: "Kumbh Sans", sans-serif;
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 400;
+    font-family: "Kumbh Sans", sans-serif;
+    color: grey;
+    width: 450px;
+}
+
+.price {
+    display: flex;
+}
+
+.discount {
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 8px;
+    font-weight: 700;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 12px;
+}
+
+.original-price {
+    font-weight: 400;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.icons {
+    display: flex;
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.minus {
+    width: 10px;
+    height: 3px;
+}
+
+.three {
+    font-weight: 400;
+    font-family: "Kumbh Sans", sans-serif;
+    color: black;
+    text-align: center; 
+}
+
+.plus {
+    width: 20px;
+    height: 10px;
+}
+
+.carts {
+    margin-left: 10px; 
+    display: flex;
+    background-color: hsl(26, 100%, 55%);;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    justify-items: center;
+    column-count: 2;
+    column-gap: 15px;
+    /* text-align: center */
+}
+
+.cart {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.add-cart {
+    color: white;
+}
+
+.icons-carts {
+    display: flex;
+}
